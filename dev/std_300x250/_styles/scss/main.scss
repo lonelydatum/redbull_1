@@ -1,0 +1,40 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 1;
+}
+
+.bg{
+	transform-origin: 520px 380px;
+	@include pos-scale(-260, -190, 0.5);
+	opacity: .8;
+}
+
+.bg_glow{
+	@include pos-scale(0, -50, .5);
+}
+
+.box{
+	width: 300px;
+	height: 250px;
+	background-color: black;
+	opacity: 0.2;
+	@include pos(0, 0);
+}
+
+#banner{
+	font-size: 20px;
+	background-color: #30b8d2;
+	width: 300px;
+	height: 250px;
+}
+
+.logo{
+	z-index: 99;
+	@include pos-scale(0, 0, .5);
+}
+
