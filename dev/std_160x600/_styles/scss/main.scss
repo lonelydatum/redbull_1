@@ -16,7 +16,7 @@
 }
 
 .bg_glow{
-	@include pos-scale(0, -80, .5);
+	@include pos(0, -80);
 }
 
 .box{
